@@ -21,7 +21,7 @@ object Spark_RDD {
     arrayRDD.collect().foreach(println)
 
 
-    //从外部存储创建,默认项目路径或者hdfs路径。
+    //从外部存储创建,默认项目路径，也可以改为hdfs路径hdfs://hadoop102:9000/xxx
     val fileRDD: RDD[String] = sc.textFile("in")
     fileRDD.foreach(println)
   }
