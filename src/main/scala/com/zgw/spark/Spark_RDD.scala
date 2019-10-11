@@ -22,8 +22,13 @@ object Spark_RDD {
 
 
     //从外部存储创建,默认项目路径，也可以改为hdfs路径hdfs://hadoop102:9000/xxx
-    val fileRDD: RDD[String] = sc.textFile("in")
+    //读取文件时，传递的参数为最小分区数，但是不一定是这个分区，取决于hadoop分片规则
+    val fileRDD: RDD[String] = sc.textFile("in",2)
     fileRDD.foreach(println)
+
+    //将内存创建RDD数据保存到文件,8核，四个数据放八个分区
+   // listRDD.saveAsTextFile("output")
+    fileRDD.saveAsTextFile("output")
   }
 
 }
