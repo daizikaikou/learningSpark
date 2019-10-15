@@ -8,7 +8,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object MapPartitionWithIndex {
   def main(args: Array[String]): Unit = {
-    val config = new SparkConf().setMaster("local[*]").setAppName("MapPartitions").set("spark.testing.memory","2147480000")
+    val config = new SparkConf().setMaster("local[*]").setAppName("MapPartitionWithIndex").set("spark.testing.memory","2147480000")
     //创建spark上下文对象
     val sc = new SparkContext(config)
   //创建rdd，使每个元素跟所在的分区形成一个元组

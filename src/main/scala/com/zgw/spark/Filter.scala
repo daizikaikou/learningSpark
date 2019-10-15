@@ -8,7 +8,7 @@ import org.apache.spark.rdd.RDD
   */
 object Filter {
   def main(args: Array[String]): Unit = {
-    val config = new SparkConf().setMaster("local[*]").setAppName("MapPartitions").set("spark.testing.memory", "2147480000")
+    val config = new SparkConf().setMaster("local[*]").setAppName("Filter").set("spark.testing.memory", "2147480000")
     //创建spark上下文对象
     val sc = new SparkContext(config)
     //按照制定规则进行分组,分组后的数据形成元组，kv
