@@ -17,9 +17,9 @@ object GroupByKey {
     //groupByKey算子
     val group: RDD[(String, Iterable[Int])] = listRdd.groupByKey()
     group.collect().foreach(println)
-    //reduceByKey算子
+  /*  //reduceByKey算子
     val reduceByKeyRDD: Array[(String, Int)] = listRdd.reduceByKey(_+_).collect()
-    reduceByKeyRDD.foreach(println)
+    reduceByKeyRDD.foreach(println)*/
 
   }
 }
