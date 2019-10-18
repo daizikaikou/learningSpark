@@ -18,6 +18,17 @@
         <artifactId>scala-maven-plugin</artifactId>
         <version>3.2.0</version>
     </dependency>
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.27</version>
+    </dependency>
+<!--sparksql-->
+    <dependency>
+        <groupId>org.apache.spark</groupId>
+        <artifactId>spark-sql_2.11</artifactId>
+        <version>2.1.1</version>
+    </dependency>
 </dependencies>
     <build>
         <finalName>WordCount</finalName>

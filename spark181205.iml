@@ -14,6 +14,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.11.12" level="application" />
+    <orderEntry type="library" name="ansj_seg-5.1.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-core_2.11:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.avro:avro-mapred:hadoop2:1.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.avro:avro-ipc:1.7.7" level="project" />
@@ -174,5 +175,19 @@
     <orderEntry type="library" name="Maven: org.scala-lang:scala-compiler:2.10.3" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.sbt:sbt-interface:0.13.5" level="project" />
     <orderEntry type="library" name="Maven: com.typesafe.sbt:compiler-interface:sources:0.13.5" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.27" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-sql_2.11:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.univocity:univocity-parsers:2.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-sketch_2.11:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-catalyst_2.11:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:janino:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-column:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-common:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-encoding:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-hadoop:1.8.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-format:2.3.0-incubating" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.parquet:parquet-jackson:1.8.1" level="project" />
   </component>
 </module>
