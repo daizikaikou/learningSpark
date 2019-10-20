@@ -22,8 +22,9 @@ object spark_sql_transform1 {
     case (id, name, age) => {
         User(id, name, age)
       }}
-
+    //转为ds
     val dataset: Dataset[User] = userrdd.toDS()
+    //dataset和rdd互相转换
     val rdd1: RDD[User] = dataset.rdd
     rdd1.foreach(println)
 
