@@ -1,7 +1,6 @@
 package com.zgw.spark.streaming
 
 import org.apache.spark.SparkConf
-import org.apache.spark.sql.catalyst.expressions.Second
 import org.apache.spark.streaming.dstream.{DStream, ReceiverInputDStream}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
@@ -14,10 +13,10 @@ object SparkStream {
     var sparkConf =new SparkConf().setMaster("local[*]").setAppName("SparkStream").set("spark.testing.memory", "2147480000")
 
     //分析环境对象以及采集周期
-    val streamContext = new StreamingContext(sparkConf,Seconds(3))
+    val streamContext = new StreamingContext(sparkConf,Seconds(10))
 
-    //从指定端口采集数据
-    val socketStreamLine: ReceiverInputDStream[String] = streamContext.socketTextStream("localhost",9999)
+    //从指定端口采集数据 bigdata是主机名
+    val socketStreamLine: ReceiverInputDStream[String] = streamContext.socketTextStream("bigdata",9999)
 
     //将采集数据进行分解
     val dStream: DStream[String] = socketStreamLine.flatMap(line => line.split(" "))
