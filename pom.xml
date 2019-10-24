@@ -34,6 +34,13 @@
         <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
         <version>2.1.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+    <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>1.2.17</version>
+    </dependency>
+
     <dependency>
         <groupId>org.apache.kafka</groupId>
         <artifactId>kafka-clients</artifactId>
@@ -44,6 +51,25 @@
         <artifactId>spark-streaming_2.11</artifactId>
         <version>2.1.1</version>
     </dependency>
+    <!--hbase的依赖-->
+    <dependency>
+        <groupId>org.apache.hbase</groupId>
+        <artifactId>hbase-client</artifactId>
+        <version>2.1.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.hbase</groupId>
+        <artifactId>hbase-server</artifactId>
+        <version>2.1.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.hbase</groupId>
+        <artifactId>hbase</artifactId>
+        <version>2.1.1</version>
+        <type>pom</type>
+    </dependency>
+
 </dependencies>
     <build>
         <finalName>WordCount</finalName>
