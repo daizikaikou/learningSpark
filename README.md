@@ -22,3 +22,7 @@ Spark Streaming处理文件(本地文件以及hdfs上面的文件)https://blog.c
 SparkStreaming 整合kafka实例 https://blog.csdn.net/qq_35885488/article/details/102695485
 
 SparkStream整合hbase https://blog.csdn.net/qq_35885488/article/details/102717092
+
+spark转换算子和行动算子介绍https://blog.csdn.net/qq_35885488/article/details/102745211
+
+spark rdd介绍 https://blog.csdn.net/qq_35885488/article/details/102723021
