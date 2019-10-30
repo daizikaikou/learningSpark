@@ -8,6 +8,7 @@
     <artifactId>spark-181205</artifactId>
     <version>1.0</version>
 <dependencies>
+
     <dependency>
         <groupId>org.apache.spark</groupId>
         <artifactId>spark-core_2.11</artifactId>
@@ -57,6 +58,7 @@
         <artifactId>hbase-client</artifactId>
         <version>2.1.1</version>
     </dependency>
+
     <dependency>
         <groupId>org.apache.hbase</groupId>
         <artifactId>hbase-server</artifactId>
