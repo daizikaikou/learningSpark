@@ -30,3 +30,5 @@ spark rdd介绍 https://blog.csdn.net/qq_35885488/article/details/102723021
 Spark中的匿名函数介绍 https://blog.csdn.net/qq_35885488/article/details/102617622
 
 spark函数传递 https://blog.csdn.net/qq_35885488/article/details/102799923
+
+sparkrdd连接mysql https://blog.csdn.net/qq_35885488/article/details/102813737
