@@ -14,6 +14,8 @@
     Spark 2.1.0
     
     HBase 1.1.5
+    
+Spark单机环境安装(cdh) https://blog.csdn.net/qq_35885488/article/details/103162749
 
 Spark Streaming处理Socket流简单实例 https://blog.csdn.net/qq_35885488/article/details/102667468
 
@@ -32,3 +34,6 @@ Spark中的匿名函数介绍 https://blog.csdn.net/qq_35885488/article/details/
 spark函数传递 https://blog.csdn.net/qq_35885488/article/details/102799923
 
 sparkrdd连接mysql https://blog.csdn.net/qq_35885488/article/details/102813737
+
+Spark无状态和有状态转化操作介绍 https://blog.csdn.net/qq_35885488/article/details/103185724
+
