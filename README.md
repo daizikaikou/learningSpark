@@ -17,6 +17,8 @@
     
 Spark单机环境安装(cdh) https://blog.csdn.net/qq_35885488/article/details/103162749
 
+spark在Idea中设置日志打印级别https://blog.csdn.net/qq_35885488/article/details/103201704
+
 Spark Streaming处理Socket流简单实例 https://blog.csdn.net/qq_35885488/article/details/102667468
 
 Spark Streaming处理文件(本地文件以及hdfs上面的文件) https://blog.csdn.net/qq_35885488/article/details/102681368
@@ -36,4 +38,13 @@ spark函数传递 https://blog.csdn.net/qq_35885488/article/details/102799923
 sparkrdd连接mysql https://blog.csdn.net/qq_35885488/article/details/102813737
 
 Spark无状态和有状态转化操作介绍 https://blog.csdn.net/qq_35885488/article/details/103185724
+
+SparkStream连接mysql数据库 https://blog.csdn.net/qq_35885488/article/details/103197657
+
+SparkStream窗口函数 https://blog.csdn.net/qq_35885488/article/details/103199008
+
+sparkStream之黑名单过滤 https://blog.csdn.net/qq_35885488/article/details/103201803
+
+
+
 
