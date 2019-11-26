@@ -46,5 +46,5 @@ SparkStream窗口函数 https://blog.csdn.net/qq_35885488/article/details/103199
 sparkStream之黑名单过滤 https://blog.csdn.net/qq_35885488/article/details/103201803
 
 
-
+sparkStreaming整合Flume的两种方式 https://blog.csdn.net/qq_35885488/article/details/103252180
 
